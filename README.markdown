@@ -11,7 +11,7 @@ Perfect match I'd say!
 
 What is Yubikey?
 ----------------
-From [Wikipedia][1]:
+From Wikipedia (http://en.wikipedia.org/wiki/Yubikey):
 
 YubiKey is a device that acts as a USB keyboard and provides secure authentification by a one-time password algorithm. The YubiKey is what is known as a security token The device is created by a company called Yubico. The device creates a 128 bit string of characters that acts as a password. This device draws power from the USB port and does not contain batteries or use other power supplies. Since it acts as a USB keyboard, there is no software to accompany it.
 
@@ -22,7 +22,9 @@ Install the dependencies
 
     sudo rake gems:install
 
-*Add your key to the DB (to be fixed, do it manually)*
+*Add your key to the DB*
+
+    (to be fixed, do it manually)*
 
 Running Rubikey
 
@@ -48,4 +50,4 @@ Comparsion
 ----------
 
 TODO: A comparison with the Java and PHP version of Yubikey's official validation servers with Rubikey. Lines of code should differ quite a bit :)
-  [1]: http://en.wikipedia.org/wiki/Yubikey
+
